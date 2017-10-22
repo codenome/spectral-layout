@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 22, 2017, 12:40:21 PM
+    Author     : thiago
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 2em !important;
+    color: red !important;
+}
+
+.navbar {
+    border-radius: 0px !important;
+    height: 90px !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    color: red;
+}
+
+footer {
+    width: 100%;
+    background-color: #f8f8f8;
+    border-top: 1px solid #e7e7e7;
+    position: absolute;
+    bottom: 0;
+    padding: 40px 0px 40px 0px;
+}
+
+footer nav ul li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid activeborder;
+}
+

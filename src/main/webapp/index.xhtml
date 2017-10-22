@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:b="http://bootsfaces.net/ui"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+    <h:head>
+        <title>BootsFaces Basic Page</title>
+        <h:outputStylesheet name="/css/reset.css" />
+        <h:outputStylesheet name="/css/grid.css" />
+        <h:outputStylesheet name="/css/style.css" />
+    </h:head>
+    <h:body>
+
+        <header>
+
+            <b:navBar brand="Spectral" brandHref="#">
+                <b:navbarLinks>
+                    <b:navLink value="Home" href="#"></b:navLink>
+                    <b:navLink value="Sobre" href="#"></b:navLink>
+                    <b:dropMenu value="Algumas opções">
+                        <b:navLink value="Opção 1" href="#"></b:navLink>
+                        <b:navLink value="Opção 2" href="#"></b:navLink>
+                        <b:navLink value="Sempre tem mais uma" href="#"></b:navLink>
+                        <b:navLink></b:navLink>
+                        <b:navLink header="Categoria Separador"></b:navLink>
+                        <b:navLink value="Mais uma opção" href="#"></b:navLink>
+                        <b:dropMenu value="Próxima opção com sub" iconAwesome="birthday-cake" iconAlign="left">
+                            <b:navLink value="Você tem mais opção" href="#"></b:navLink>
+                            <b:navLink value="Mais uma opção" href="#"></b:navLink>
+                        </b:dropMenu>
+                    </b:dropMenu>
+                </b:navbarLinks>
+
+                <b:navbarLinks pull="right" styleClass="hidden-xs">
+                    <b:navLink value="Pode ser" href="#"></b:navLink>
+                    <b:dropMenu value="Linguagens">
+                        <b:navLink value="Inglês" href="#"></b:navLink>
+                        <b:navLink value="Português" href="#"></b:navLink>
+                        <b:navLink value="Espanhou" href="#"></b:navLink>
+                    </b:dropMenu>
+                    <b:button value="Login" styleClass="btn-primary mt-3" />
+                </b:navbarLinks>
+            </b:navBar>
+        </header>
+        <main>
+            <section>
+                <b:container>
+                    <div class="login-div">
+                        <h1 class="logo">Spectral</h1>
+                        <p class="pt-5">Preencha os campos abaixo para acessar o nosso sistema.</p>
+                    </div>
+                    <h:form class="form-login">
+                        <b:row>
+                            <b:inputText id="usuario" name="usuario" placeholder="Nome de usuário" />
+                            <b:inputSecret id="senha" name="senha" placeholder="Digite sua senha" />
+                            <b:button id="login" value="Login" class="form-control btn-primary"/>
+                        </b:row>
+                    </h:form>
+                </b:container>
+            </section>
+        </main>
+        <footer>
+            <section>
+                <b:container>
+                    <b:row>
+                        <b:column span="4">
+                            <nav>
+                                <h3>Página</h3>
+                                <ul>
+                                    <li><a href="#">Uma página legal</a></li>
+                                    <li><a href="#">Outra página</a></li>
+                                    <li><a href="#">Uma página legal</a></li>
+                                    <li><a href="#">Outra página</a></li>
+                                    <li><a href="#">Uma página legal</a></li>
+                                    <li><a href="#">Outra página</a></li>
+                                </ul>
+                            </nav>
+                        </b:column>
+                        <b:column span="4">
+                            <nav>
+                                <h3>Página</h3>
+                                <ul>
+                                    <li><a href="#">Uma página legal</a></li>
+                                    <li><a href="#">Outra página</a></li>
+                                    <li><a href="#">Uma página legal</a></li>
+                                    <li><a href="#">Outra página</a></li>
+                                    <li><a href="#">Uma página legal</a></li>
+                                    <li><a href="#">Outra página</a></li>
+                                </ul>
+                            </nav>
+                        </b:column>
+                        <b:column span="4">
+                            <nav>
+                                <h3>Página</h3>
+                                <ul>
+                                    <li><a href="#">Uma página legal</a></li>
+                                    <li><a href="#">Outra página</a></li>
+                                    <li><a href="#">Uma página legal</a></li>
+                                    <li><a href="#">Outra página</a></li>
+                                    <li><a href="#">Uma página legal</a></li>
+                                    <li><a href="#">Outra página</a></li>
+                                </ul>
+                            </nav>
+                        </b:column>
+                    </b:row>
+                </b:container>
+            </section>
+        </footer>
+    </h:body>
+</html>
